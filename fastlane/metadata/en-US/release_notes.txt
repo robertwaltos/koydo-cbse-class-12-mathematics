@@ -1,0 +1,5 @@
+Initial release of Koydo CBSE Class 12 Mathematics Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration

@@ -1,0 +1,45 @@
+// CBSE Class 12 Mathematics Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM191",
+  slug: "cbse-class-12-mathematics",
+  name: "CBSE Class 12 Mathematics",
+  fullName: "CBSE 12 Maths",
+  alias: "CBSE 12 Maths",
+  family: "CBSE",
+  category: "School exams",
+  subcategory: "Subject exam",
+  country: "India",
+  region: "South Asia",
+  languages: ["English","Hindi"],
+  estimatedAnnualTakers: "high",
+  testingWindow: "Feb-Mar",
+  schedulePattern: "Annual",
+  ageGroup: "16-18",
+  targetUser: "School student",
+  delivery: "Paper-based",
+  questionTypes: ["Objective + subjective"],
+  adaptivity: "Linear",
+  sections: "Single subject",
+  scoringMode: "Marks/grades",
+  essayOrSpeaking: "No",
+  ipRisk: "Low",
+  contentReuse: "advanced_math",
+  uiEngine: "paper_numeric",
+  monetizationPotential: "High",
+  tier: "Tier 3",
+  launchWave: "Wave 5",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "High",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
