@@ -20,7 +20,7 @@ export interface TopicManifest {
   title: string;
   icon: string;
   color: string;
-  questionTarget: number;
+  minQuestionCount: number;
   activityTypes: ActivityType[];
 }
 
@@ -44,7 +44,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Algebra",
     icon: "📐",
     color: "#DC2626",
-    questionTarget: 700,
+    minQuestionCount: 700,
     activityTypes: ["multiple_choice", "whiteboard"],
   },
   {
@@ -53,7 +53,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Calculus",
     icon: "∫",
     color: "#7C3AED",
-    questionTarget: 600,
+    minQuestionCount: 600,
     activityTypes: ["multiple_choice", "whiteboard", "numeric_input"],
   },
   {
@@ -62,7 +62,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Geometry",
     icon: "📏",
     color: "#059669",
-    questionTarget: 500,
+    minQuestionCount: 500,
     activityTypes: ["multiple_choice", "diagram_label"],
   },
   {
@@ -71,7 +71,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Statistics",
     icon: "📊",
     color: "#D97706",
-    questionTarget: 400,
+    minQuestionCount: 400,
     activityTypes: ["multiple_choice", "data_interpretation"],
   },
   {
@@ -80,8 +80,9 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Number Theory",
     icon: "🔢",
     color: "#DC2626",
-    questionTarget: 400,
+    minQuestionCount: 400,
     activityTypes: ["multiple_choice", "whiteboard"],
   }
   ],
 };
+
